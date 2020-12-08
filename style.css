@@ -9,7 +9,6 @@
 body {
   font-family: "Nerko One", cursive;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -22,8 +21,8 @@ body {
   position: absolute;
   top: -30px;
   left: -30px;
-  right: -30px;
-  bottom: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
   z-index: -1;
   filter: blur(0px);
 }
